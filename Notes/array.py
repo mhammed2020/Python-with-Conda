@@ -30,9 +30,7 @@ my_extnd_array = [7,8,9,10]
 my_array.extend(my_extnd_array)
 # [1, 2, 3, 4, 5, 7, 8, 9, 10]
 
-
-
 my_array = [1,2,3,4,5]
-c=[11,12,13]
-my_array.fromlist(c)
-# [1, 2, 3, 4, 5, 11, 12, 13]
+my_array.remove(4)
+#  [1, 2, 3, 5]
+
