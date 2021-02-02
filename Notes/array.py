@@ -14,3 +14,7 @@ for i in my_array:
 # 3
 # 4
 # 5
+
+my_array = [1,2,3,4,5]
+my_array.append(6)
+#  [1, 2, 3, 4, 5, 6]
