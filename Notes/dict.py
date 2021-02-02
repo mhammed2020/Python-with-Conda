@@ -17,3 +17,9 @@ for key in d:
 # c 3
 # b 2
 # a 1
+
+for key, value in d.items():
+    print(key, value)
+# c 3
+# b 2
+# a 1
