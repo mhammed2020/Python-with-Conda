@@ -59,3 +59,11 @@ my_array.reverse()
 my_array = [1,2,3,3,5]
 my_array.count(3)
 # 2
+
+
+
+
+my_char_array = ['g','e','e','k']
+# array('c', 'geek')
+print(str(my_char_array))
+# geek
