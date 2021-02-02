@@ -34,3 +34,7 @@ my_array = [1,2,3,4,5]
 my_array.remove(4)
 #  [1, 2, 3, 5]
 
+
+my_array = [1,2,3,4,5]
+my_array.pop()
+# [1, 2, 3, 4]
