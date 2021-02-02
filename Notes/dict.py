@@ -23,3 +23,15 @@ for key, value in d.items():
 # c 3
 # b 2
 # a 1
+
+
+for key, value in d.values():
+    print(key, value)
+# 3
+# 2
+# 1
+
+
+
+dict1 = {'name': "medo", 'status': "enginner", 'email': "@mail1"}
+dict2 = {'name': "mohamed", 'status': "student", 'email': "@email2"}
