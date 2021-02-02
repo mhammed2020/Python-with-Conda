@@ -67,3 +67,9 @@ my_char_array = ['g','e','e','k']
 # array('c', 'geek')
 print(str(my_char_array))
 # geek
+
+
+
+c = list(range(0,10))
+print(c)
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
