@@ -18,3 +18,7 @@ for i in my_array:
 my_array = [1,2,3,4,5]
 my_array.append(6)
 #  [1, 2, 3, 4, 5, 6]
+
+my_array = [1,2,3,4,5]
+my_array.insert(0,0)
+#[0, 1, 2, 3, 4, 5]
