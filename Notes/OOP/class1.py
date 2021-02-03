@@ -9,5 +9,5 @@ class Person:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
-obj1 = Person('Corey', 'Schafer', 50000)
-obj2 = Person('Test', 'Employee', 60000)
+obj1 = Person('medo', 'guedo', 50000)
+obj2 = Person('amina', 'ouj', 60000)
