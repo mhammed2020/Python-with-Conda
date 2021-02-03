@@ -24,6 +24,7 @@ for key, value in d.items():
 # b 2
 # a 1
 
+d = {'name': "medo", 'status': "enginner", 'email': "@mail1"}
 
 for key, value in d.values():
     print(key, value)
@@ -35,3 +36,5 @@ for key, value in d.values():
 
 dict1 = {'name': "medo", 'status': "enginner", 'email': "@mail1"}
 dict2 = {'name': "mohamed", 'status': "student", 'email': "@email2"}
+
+dict3 = {**dict1,**dict2}
