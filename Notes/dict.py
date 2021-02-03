@@ -38,3 +38,9 @@ dict1 = {'name': "medo", 'status': "enginner", 'email': "@mail1"}
 dict2 = {'name': "mohamed", 'status': "student", 'email': "@email2"}
 
 dict3 = {**dict1,**dict2}
+
+dictionary = {"Hello": 1234, "World": 5678}
+print(dictionary["Hello"])
+
+w = dictionary.get("blabla")
+x = dictionary.get("blabla", "not found")
