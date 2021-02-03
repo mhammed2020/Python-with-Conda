@@ -8,5 +8,7 @@ class Person:
 
 obj1 = Person('medo', 'guedo', 50000)
 obj2 = Person('amina', 'ouj', 60000)
+obj1.email
 
-print(obj1.first)
+print(obj1.email)
+print(obj2.email)
