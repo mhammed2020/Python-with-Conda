@@ -17,4 +17,5 @@ class Person:
 obj1 = Person('medo', 'guedo', 4000)
 obj2 = Person('amina', 'ouj', 2500)
 
-print(obj1.__dict__)
+print(obj1.__dict__) #dict with instance
+print(Person.__dict__) # dict with class
