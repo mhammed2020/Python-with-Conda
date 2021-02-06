@@ -16,3 +16,11 @@ print(new_list)
 # do this task with list comp
 new_list =[ i for i in list1 if i%2==0 ]
 print(new_list)
+
+
+# new_list = filter(lambda i: i>15 ,list1 )
+print(new_list)
+new_list = list(filter(lambda i: i>15 ,list1 )) # conversion
+print(new_list)
+for x in new_list:
+  print(x)
