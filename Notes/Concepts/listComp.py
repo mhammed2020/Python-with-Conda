@@ -12,3 +12,7 @@ for i in list1 :
     if i%2 ==0 :
         new_list.append(i)
 print(new_list)
+
+# do this task with list comp
+new_list =[ i for i in list1 if i%2==0 ]
+print(new_list)
