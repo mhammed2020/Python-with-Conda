@@ -21,3 +21,9 @@ def sum_function2(*listInput):
     print (listInput)
 sum_function2(1,2,3,4,5,6,7,8,9,10)
 
+
+
+def print_me(**values):
+      for key, value in values.items():
+    print("{} = {}".format(key,value))
+print_me(one = 1,two = 2,three = 3,four = 4,five = 5)
