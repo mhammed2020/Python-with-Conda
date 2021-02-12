@@ -27,3 +27,22 @@ for x in new_list:
   
 new_list =[(i,j) for i in "python" for j in range(4)]
 print(new_list)
+
+# list comprehension
+
+list1 = ["medo", "houma", "jeams", "mady", "mola", "karim"]
+
+res = filter(lambda name: name.startswith("m"), list1)
+
+print(res)
+for i in res:
+      print(i)
+
+# 2 method with simple for loop
+l=[]
+for i in list1 :
+    if i.startswith("m"):
+        print(i)
+        l.append(i)
+print(l)
+
