@@ -51,3 +51,14 @@ print(l)
 #  list comp with nested loop
 l = [ (i,j) for i in ["x","y","z"] for j in[1,2] ]
 print(l)
+
+
+#  list comp with dictionaries and others objects
+list1 =["medo","mamado","ahmed","Amina","wael"]
+list2 =["casa","bamako","paris","berlin","rabat"]
+# with list comprehesnion can match 2 lists using zip function
+print(list1,list2)
+a =zip(list1,list2)
+print(a)
+print(type(a))
+print(list(zip(list1,list2)))
