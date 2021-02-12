@@ -46,3 +46,8 @@ for i in list1 :
         l.append(i)
 print(l)
 
+#--------------------------------------
+
+#  list comp with nested loop
+l = [ (i,j) for i in ["x","y","z"] for j in[1,2] ]
+print(l)
