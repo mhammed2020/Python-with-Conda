@@ -70,3 +70,15 @@ dict1 ={}
 for i , j in zip(list1,list2):
     dict1[i] = j
 print(dict1)
+
+# 2 method 
+
+list1 =["medo","mamado","ahmed","Amina","wael"]
+list2 =["casa","bamako","paris","berlin","rabat"]
+dict1 ={}
+# dict   comprehension
+dict1 ={i:j for i,j in zip(list1,list2)}
+print(dict1)
+# adding condition and filtering
+dict1 ={i:j for i,j in zip(list1,list2) if i !="mamado"}
+print(dict1)
