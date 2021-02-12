@@ -62,3 +62,11 @@ a =zip(list1,list2)
 print(a)
 print(type(a))
 print(list(zip(list1,list2)))
+
+# zip and dict
+list1 =["medo","mamado","ahmed","Amina","wael"]
+list2 =["casa","bamako","paris","berlin","rabat"]
+dict1 ={}
+for i , j in zip(list1,list2):
+    dict1[i] = j
+print(dict1)
