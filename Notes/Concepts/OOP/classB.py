@@ -27,15 +27,26 @@
 
 
 
-class Velo:
-    roues = 2
-    def __init__(self, marque, prix, poids):
-        self.marque = marque
-        self.prix = prix
-        self.poids = poids
+# class Velo:
+#     roues = 2
+#     def __init__(self, marque, prix, poids):
+#         self.marque = marque
+#         self.prix = prix
+#         self.poids = poids
 
-    def rouler(self):
-        print("Wouh, ça roule mieux avec un vélo {} !".format(self.marque))
+#     def rouler(self):
+#         print("Wouh, ça roule mieux avec un vélo {} !".format(self.marque))
 
-# create new object
-velo_01 = Velo("btwin", 250, 15)
+# # create new object
+# velo_01 = Velo("btwin", 250, 15)
+
+
+class Shark:
+    animal_type = "fish"
+    location = "ocean"
+    followers = 5
+
+new_shark = Shark()
+print(new_shark.animal_type)
+print(new_shark.location)
+print(new_shark.followers)
