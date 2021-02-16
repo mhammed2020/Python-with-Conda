@@ -2,9 +2,7 @@ import pandas as pd
 
 # data = pd.Series([0.25, 0.5, 0.75, 1.0])
 # print(data)
-data = pd.Series((0.25, 0.5, 0.75, 1.0))
-print(data,type(data))
-print(data.values)
-print(data.index)
-print(data.keys)
+data = pd.Series((3,6,9,8,5,4,2,6,3,5,8))
+# print(data)
+print(round(data.describe(),2))
 
