@@ -9,13 +9,22 @@ import pandas as pd
 # print(data[1])
 # print(data[1:3])
 
-# 
-data1 = pd.Series([1,2,3,4], index=['a', 'b', 'c', 'd'])
+#
+# data1 = pd.Series([1,2,3,4], index=['a', 'b', 'c', 'd'])
+#
+# data2 = pd.Series({'a':1,'b':2,'c':3,'d':4})
+# print(data1)
+# print(data2)
+# print(data1['a'])
+# print(data2['b'])
 
-data2 = pd.Series({'a':1,'b':2,'c':3,'d':4})
+a = pd.Index([1, 3, 5, 7, 9])
+b = pd.Index([2, 3, 5, 7, 11])
+print(a)
+print(b)
 
-print(data1)
-print(data2)
+
+
 
 
 
