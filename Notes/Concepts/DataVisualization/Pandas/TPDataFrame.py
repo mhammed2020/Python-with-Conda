@@ -21,4 +21,8 @@ grades = pd.DataFrame({'Math':w,'Physics':x,'French':y,'Chemistry':z})
 print(grades)
 print(grades.T)
 print(grades['Chemistry'])
+print("keys : ",grades.keys())
+print("values : ", grades.values)
+print(grades.stack())
+
 
