@@ -25,4 +25,5 @@ print("keys : ",grades.keys())
 print("values : ", grades.values)
 print(grades.stack())
 print(grades.iloc[:3, :2])
-
+print(grades.loc['b':'c', 'Math':])
+print(grades.loc[grades.Math >3])
