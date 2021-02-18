@@ -24,5 +24,5 @@ print(grades['Chemistry'])
 print("keys : ",grades.keys())
 print("values : ", grades.values)
 print(grades.stack())
-
+print(grades.iloc[:3, :2])
 
