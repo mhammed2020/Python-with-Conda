@@ -49,3 +49,11 @@ df = pd.DataFrame(np.random.rand(5, 3), columns=['A', 'B', 'C'])
 print(df)
 print(df.corr())
 
+
+
+data = [{'square': i**2} for i in range(10)]
+d = pd.DataFrame(data)
+
+print(d)
+
+
