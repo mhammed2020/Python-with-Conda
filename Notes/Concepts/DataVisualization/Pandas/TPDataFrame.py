@@ -53,7 +53,9 @@ print(df.corr())
 
 data = [{'square': i**2} for i in range(10)]
 d = pd.DataFrame(data)
-
 print(d)
+data = [{'square': i**2,'cube': i**3
+         ,'root': i**0.5} for i in range(10)]
+d = pd.DataFrame(data)
 
 
