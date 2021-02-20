@@ -39,5 +39,13 @@ print(grades.min())
 print(grades.mean())
 print(grades.std())
 
+print(grades['Math'].max())
+print(grades['French'].min())
+print(grades['Physics'].mean())
+print(grades['Chemistry'].std())
 
+df = pd.DataFrame(np.random.rand(5, 3), columns=['A', 'B', 'C'])
+
+print(df)
+print(df.corr())
 
